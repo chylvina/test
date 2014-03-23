@@ -1,0 +1,34 @@
+CACHE MANIFEST
+
+# Explicitly cached 'master entries'.
+CACHE:
+http://127.0.0.1:9000/index.html
+http://127.0.0.1:9000/styles/main.css
+http://127.0.0.1:9000/styles/vendor.css
+http://127.0.0.1:9000/styles/fonts/aliyun-console-font.eot
+http://127.0.0.1:9000/styles/fonts/aliyun-console-font.ttf
+http://127.0.0.1:9000/styles/fonts/aliyun-console-font.svg
+http://127.0.0.1:9000/styles/fonts/aliyun-console-font.woff
+http://127.0.0.1:9000/styles/fonts/ionicons.eot
+http://127.0.0.1:9000/styles/fonts/ionicons.ttf
+http://127.0.0.1:9000/styles/fonts/ionicons.svg
+http://127.0.0.1:9000/styles/fonts/ionicons.woff
+http://127.0.0.1:9000/scripts/scripts.js
+http://127.0.0.1:9000/scripts/vendor.js
+http://127.0.0.1:9000/images/console-body-bg.jpg
+http://127.0.0.1:9000/images/icon-load-fault.png
+
+# Resources that require the user to be online.
+NETWORK:
+*
+login.php
+/myapi
+http://api.twitter.com
+
+# static.html will be served if main.py is inaccessible
+# offline.jpg will be served in place of all images in images/large/
+# offline.html will be served in place of all other .html files
+FALLBACK:
+/main.py /static.html
+images/large/ images/offline.jpg
+*.html /offline.html
