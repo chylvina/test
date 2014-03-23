@@ -1,0 +1,35 @@
+{
+  "code": "200",
+  "data": {
+    "aliUid": 31611321,
+    "bandwidth": "Fixed",
+    "chargeType": "Prepaid",
+    "configType": "ecs.s2.small",
+    "cpu": 2,
+    "createDate": 1372042728000,
+    "description": "",
+    "deviceNum": 2,
+    "disk": "20G",
+    "diskSize": 20,
+    "ecsId": 194501,
+    "expireDate": 1410969600000,
+    "hash": "2023587605",
+    "hostname": "AY130624105848991709Z",
+    "imageName": "ubuntu1204_64_20G_alibase_v01.vhd",
+    "imageNo": "ubuntu1204_64_20G_alibase_v01.vhd",
+    "instanceId": "AY130624105848991709",
+    "internetIp": "121.199.36.244",
+    "internetTx": 2,
+    "intranetIp": "10.132.40.237",
+    "isWin": false,
+    "memory": "2GB",
+    "osName": "Ubuntu 12.04 64位",
+    "osType": "Ubuntu 10.10",
+    "regionId": 23,
+    "regionName": "杭州",
+    "status": "Running"
+  },
+  "message": "successful",
+  "success": true
+}
+

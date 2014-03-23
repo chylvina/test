@@ -1,0 +1,31 @@
+{
+  "summary_index": {
+    "regions": [
+      {
+        "device": 2,
+        "ecs": 1,
+        "image": 0,
+        "regionId": 23,
+        "regionName": "杭州",
+        "regionNo": "cn-hangzhou-dg-a01",
+        "running": 1,
+        "snapshot": 3,
+        "toExpire": 0
+      },
+      {
+        "device": 0,
+        "ecs": 0,
+        "image": 0,
+        "regionId": 28,
+        "regionName": "青岛",
+        "regionNo": "cn-qingdao-cm5-a01",
+        "running": 0,
+        "snapshot": 0,
+        "toExpire": 0
+      }
+    ],
+    "totalEcs": 1,
+    "totalRunning": 1,
+    "totalToExpire": 0
+  }
+}

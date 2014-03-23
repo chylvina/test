@@ -1,0 +1,160 @@
+regions: {
+  "lastModified": 0,
+  "current": '',
+  "23": {
+  "device": 2,
+  "ecs": 10,
+  "image": 0,
+  "regionName": "杭州",
+  "regionNo": "cn-hangzhou-dg-a01",
+  "running": 1,
+  "snapshot": 3,
+  "toExpire": 0
+},
+  "28": {
+  "device": 0,
+  "ecs": 8,
+  "image": 0,
+  "regionName": "青岛",
+  "regionNo": "cn-qingdao-cm5-a01",
+  "running": 0,
+  "snapshot": 0,
+  "toExpire": 0
+}
+}
+
+
+
+"monitor": {
+"lastModified": 0,
+"cpu": {
+"chart": {
+"height": 160,
+"type": 'areaspline',
+"backgroundColor" : false
+},
+"plotOptions" : {
+"series" : {
+"enableMouseTracking" : false
+}
+},
+"legend" : {
+"enabled" : false
+},
+"xAxis" : {
+"tickLength" : 0
+},
+"yAxis" : {
+// max : 100
+},
+"colors": ['#00cc00'],
+"series": [
+{
+"name": 'CPU使用率',
+"data": [
+[1.39477608E+12, 0],
+[1.39477614E+12, 0.0018],
+[1.3947777E+12, 0.0024],
+[1.39477776E+12, 0.00030]
+]
+}
+]
+},
+"bps": {
+"chart": {
+"height": 160,
+"type": 'areaspline',
+"backgroundColor" : false
+},
+"plotOptions" : {
+"series" : {
+"enableMouseTracking" : false
+}
+},
+"legend" : {
+"enabled" : false
+},
+"xAxis" : {
+"tickLength" : 0
+},
+"yAxis" : {
+// max : 100
+},
+"colors": ['#00cc00'],
+"series": [
+{
+"name": '读',
+"data": [
+[1.39477608E+12, 0.0661],
+[1.39477776E+12, 0.0625]
+]
+},
+{
+"name": '写',
+"data": [
+[1.3947765E+12, 0.0688],
+[1.39477656E+12, 0.0546],
+[1.39477662E+12, 0.0658],
+[1.39477668E+12, 0.0621]
+]
+}
+]
+},
+"flow": {
+"chart": {
+"height": 160,
+"type": 'areaspline',
+"backgroundColor" : false
+},
+"plotOptions" : {
+"series" : {
+"enableMouseTracking" : false
+}
+},
+"legend" : {
+"enabled" : false
+},
+"xAxis" : {
+"tickLength" : 0
+},
+"yAxis" : {
+// max : 100
+},
+"colors": ['#00cc00'],
+"series": [
+{
+"name": 'flowRxSeries',
+"data": [
+[1.39477608E+12, 20],
+[1.39477614E+12, 23],
+[1.3947762E+12, 21],
+[1.39477626E+12, 22]
+]
+},
+{
+"name": 'flowTxSeries',
+"data": 'array'
+}
+]
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
